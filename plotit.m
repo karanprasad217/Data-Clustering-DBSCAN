@@ -8,7 +8,7 @@ function plotit(X, IDX)
     for i=0:k
         Xi=X(IDX==i,:);
         if i~=0
-            Style = 'X';
+            Style = '+';
             MarkerSize = 15;
             LineWidth = 5;
             Color = Colors(i,:);
