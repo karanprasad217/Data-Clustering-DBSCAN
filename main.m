@@ -40,7 +40,7 @@ while(n~=1 || n~=2 || n~=3 || n~=4 || n~=5 || n~=6)
       y = dcount(X,eps,MinP);
       disp(y);
       plotit(X, IDX);
-title(['Implementing dbscan Clustering Algorithm (eps = ' num2str(eps) ', MinP = ' num2str(MinP) ')']);
+      title(['Implementing dbscan Clustering Algorithm (eps = ' num2str(eps) ', MinP = ' num2str(MinP) ')']);
       %IDX2=dbscan(X,10,10);
       %plotit(X, IDX2);
    case 3
@@ -48,7 +48,7 @@ title(['Implementing dbscan Clustering Algorithm (eps = ' num2str(eps) ', MinP =
       MinP = input('Enter the Minp : ');
       IDX=dbscan(X,eps,MinP);
       plotit(X, IDX);
-title(['Implementing dbscan Clustering Algorithm (eps = ' num2str(eps) ', MinP = ' num2str(MinP) ')']);
+      title(['Implementing dbscan Clustering Algorithm (eps = ' num2str(eps) ', MinP = ' num2str(MinP) ')']);
    case 5
       eps = input('Enter the eps : ');
       MinP = input('Enter the Minp : ');
