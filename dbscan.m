@@ -1,3 +1,4 @@
+%DBSCAN ALGORITHM
 function [Kab, alnoise]=dbscan(X,eps,MinP)
 
     C=0;
